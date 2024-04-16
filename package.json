@@ -1,7 +1,8 @@
 {
-  "name": "daisy-compsci",
-  "private": true,
-  "version": "0.0.0",
+  "name": "daisycompsci",
+  "private": false,
+  "version": "0.0.1",
+  "homepage": "https://dhuang-nyc.github.io/daisycompsci",
   "type": "commonjs",
   "scripts": {
     "dev": "vite",
