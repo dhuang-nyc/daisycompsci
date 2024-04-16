@@ -5,5 +5,6 @@ module.exports = {
   plugins: [react()],
   build: {
     outDir: path.join(__dirname, "build")
-  }
+  },
+  base: "/daisycompsci/"
 }
