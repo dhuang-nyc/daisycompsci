@@ -6,5 +6,5 @@ module.exports = {
   build: {
     outDir: path.join(__dirname, "build")
   },
-  base: "/daisycompsci/"
+  base: "/me/"
 }

@@ -7,20 +7,16 @@ export const Contact = () => {
     content: "",
     loading: false,
     show: false,
-    alertMessage: ""
+    alertMessage: "",
   });
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormData({loading: true})
+    setFormData({ loading: true });
 
     // TO-DO: actually email
-    console.log(formData)
-  }
+    console.log(formData);
+  };
 
-
-  return (
-    <form></form>
-  )
+  return <form></form>;
 };
